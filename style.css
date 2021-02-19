@@ -1,0 +1,138 @@
+/* comment the body element makes me "responsive" */
+
+body {
+  margin: 0;
+  width: 1430px;
+  }
+
+.head {
+    width: 1280px;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Abril Fatface', cursive;
+    color: #222;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    }
+
+.head #btext1 {
+  font-size: 40px;
+  margin: 0;
+  height: 30px;
+  }
+
+.head #btext2 {
+  font-size: 80px;
+  margin: 0;
+  } 
+
+#introtext {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 50px 0px;
+  color: #222;
+  }
+
+.container {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  margin-left: 350px;
+  margin-right: 350px;
+  color: #222;
+}
+
+ul {
+  list-style-type: square;
+  margin-bottom: 55px;
+}
+
+p {
+  margin-bottom: 45px;
+}
+
+#lowmargin {
+  margin: 0;
+}
+
+.greybox1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:  #424141;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 23px;
+  color: white;
+  height: 170px;
+  margin-left: 300px;
+  margin-right: 300px;
+  }
+
+.greybox1::before {
+  content: '“';
+  font-family: 'Abril Fatface', cursive;
+  font-size: 144px;
+  position: relative;
+  bottom: 25px;
+/*   border: 3px solid #73AD21; */
+  }
+
+.greybox2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:  #424141;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 23px;
+  color: white;
+  height: 230px;
+  margin-left: 300px;
+  margin-right: 300px;
+  }
+
+.greybox2::before {
+  content: '“';
+  font-family: 'Abril Fatface', cursive;
+  font-size: 144px;
+  position: relative;
+  bottom: 55px;
+/*   border: 3px solid #73AD21; */
+  }
+
+.uppercase {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  margin: 0;
+  }
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+  margin: 0;
+  font-size: 15px;
+  }
+
+#blackline {
+  background-color: black;
+  height: 5px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 280px;
+  margin-right: 280px;
+}
