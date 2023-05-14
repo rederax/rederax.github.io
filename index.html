@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>YouCube</title>
+</head>
+
+<body>
+    <header class="header-full">
+        <div class="header-container flex space-between align-items wrapping">
+
+            <nav class="nav-bar flex align-items">
+                <a href="/"> <img src="svg/bars-solid.svg" alt="hamburger menu"> </a>
+                <a href="/"> <img src="svg/youtube.svg" alt=""> </a>
+                <a href="/">
+                    <h1>YouCube <sup>HU</sup> || for testing purposes only</h1>
+                </a>
+            </nav>
+
+            <div class="search-field flex align-items">
+                <div class="search-bar flex align-items">
+                    <input type="text" placeholder="Keresés" name="searchbar">
+                    <a href=""><img src="svg/keyboard-regular.svg" alt=""></a>
+                    <a href=""><img src="svg/magnifying-glass-solid.svg" alt=""></a>
+                </div>
+                <div class="mic-container">
+                   <a href=""><img src="svg/microphone-solid.svg" alt="microphone"></a>
+                </div>
+            </div>
+
+            <div class="user-menu flex">
+                <a href="#"> <img src="svg/video-solid.svg" alt=""> </a>
+                <a href="#"> <img src="svg/bell-regular.svg" alt=""> </a>
+                <a href="#"> <img src="svg/user-regular.svg" alt=""> </a>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main-page flex">
+        <aside class="aside-full flex">
+            <div>
+                <ul>
+                    <li class="flex"><img src="icons/home_FILL0_wght400_GRAD0_opsz48.svg" alt=""><a
+                            href="">Kezdőlap</a></li>
+                    <li class="flex"><img src="icons/explore_FILL0_wght400_GRAD0_opsz48.svg" alt=""><a
+                            href="">Felfedezés</a></li>
+                    <li class="flex"><img src="icons/video_library_FILL0_wght400_GRAD0_opsz48.svg" alt=""><a
+                            href="">Shorts</a></li>
+                    <li class="flex"><img src="icons/subscriptions_FILL0_wght400_GRAD0_opsz48.svg" alt=""><a
+                            href="">Feliratkozások</a></li>
+                </ul>
+                <hr>
+            </div>
+            <div>
+                <ul>
+                    <li class="flex"><img src="icons/video_library_FILL0_wght400_GRAD0_opsz48.svg" alt=""><a
+                            href="">Könyvtár</a></li>
+                    <li class="flex"><img src="icons/history_FILL0_wght400_GRAD0_opsz48.svg" alt=""><a
+                            href="">Előzmények</a></li>
+                </ul>
+                <hr>
+            </div>
+            <div class="login-div">
+                <p>Jelentkezz be a lájkoláshoz, hozzászóláshoz és feliratkozáshoz.</p>
+                <input type="button" value="Bejelentkezés">
+            </div>
+            <div>
+                <hr>
+                <ul>
+                    <li class="flex"><img src="icons/local_fire_department_FILL0_wght400_GRAD0_opsz48.svg" alt=""><a
+                            href="">Felkapott</a></li>
+                    <li class="flex"><img src="icons/music_note_FILL0_wght400_GRAD0_opsz48.svg" alt=""><a
+                            href="">Zene</a></li>
+                    <li class="flex"><img src="icons/movie_edit_FILL0_wght400_GRAD0_opsz48.svg" alt=""><a
+                            href="">Filmek</a></li>
+                    <li class="flex"><img src="icons/videogame_asset_FILL0_wght400_GRAD0_opsz48.svg" alt=""><a
+                            href="">Játék</a></li>
+                    <li class="flex"><img src="icons/new_releases_FILL0_wght400_GRAD0_opsz48.svg" alt=""><a
+                            href="">Sport</a></li>
+                </ul>
+                <hr>
+            </div>
+
+        </aside>
+        <section class="first-section">
+
+            <div class="btn-container flex wrapping">
+                <button class="filter-btn">Összes</button>
+                <button class="filter-btn">Zene</button>
+                <button class="filter-btn">Élő</button>
+                <button class="filter-btn">Egyvelegek</button>
+                <button class="filter-btn">Turistacélpontok</button>
+                <button class="filter-btn">Természet</button>
+                <button class="filter-btn">Nemrég feltöltött</button>
+                <button class="filter-btn">Megnézve</button>
+                <button class="filter-btn">Új ajánlatok neked</button>
+            </div>
+
+            <div class="card-container grid">
+
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+
+                <div class="card grid">
+
+                    <div class="card-upper">
+                        <img src="https://picsum.photos/350/250" alt="">
+                    </div>
+        
+                    <div class="card-lower-left flex">
+                        <img src="https://picsum.photos/75/75" alt="">
+                    </div>
+        
+                    <div class="card-lower-right flex">
+                        <h3>Videó címe és rövid leírása</h3>
+                            <h6>szerző</h6>
+                            <h6>megtekintések száma || dátum </h6>
+                    </div>
+        
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer"></footer>
+</body>
+
+</html>
